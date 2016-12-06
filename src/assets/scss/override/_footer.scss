@@ -1,0 +1,29 @@
+footer {
+
+  div {
+    padding-top:30px;
+    padding-bottom:30px;
+    ul {
+      color:black;
+      li {
+        font-size:14px;
+        margin-top:5px;
+        img {
+          margin-right:30px;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 640px) {
+footer {
+  div {
+    text-align:center;
+  }
+  div:nth-child(2) {
+    background:lightgrey;
+  }
+}
+}
