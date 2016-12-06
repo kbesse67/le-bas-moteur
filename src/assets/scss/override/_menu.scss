@@ -1,0 +1,35 @@
+#offCanvas {
+    padding-top:85px;
+
+  img{
+    padding-left: 58px;
+    width:270px;
+  }
+
+  ul {
+
+    padding-top:100px;
+    li {
+
+      a {
+        color:$blue;
+        font-family:$slab;
+        font-size:24px;
+        display:block;
+        padding-top:35px;
+        padding-bottom:35px;
+      }
+      a:hover {
+
+        color:white;
+        font-family:$slab;
+        background:$blue;
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+}
