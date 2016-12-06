@@ -1,0 +1,14 @@
+body {
+  hr {
+    height:5px;
+    background:white;
+    width:440px;
+    margin-bottom:25px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  hr{
+  width:100% !important;
+  }
+}

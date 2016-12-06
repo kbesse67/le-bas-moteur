@@ -1,0 +1,43 @@
+.quesaco {
+  background:$red;
+  padding-top:270px;
+  padding-bottom:270px;
+  min-height:950px;
+  position:relative;
+
+  article {
+    margin-top:50px;
+    p{
+      color:white;
+      line-height:30px;
+    }
+  }
+
+  .icons {
+    img {
+          margin-left:20px;
+          margin-right:20px;
+    }
+  }
+
+
+  .bigvan {
+    position:absolute;
+    left:50%;
+    margin-left:-334px;
+    top:50%;
+    margin-top:-234px;
+  }
+
+}
+
+
+@media screen and (max-width: 640px) {
+  .quesaco {
+
+    padding-top:100px;
+    padding-bottom:100px;
+    min-height:500px;
+    position:relative;
+  }
+}

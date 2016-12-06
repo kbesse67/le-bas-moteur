@@ -1,3 +1,8 @@
+/* POUR POUVOIR AFFICHER CORRECTEMENT TOUT LE SITE */
+.off-canvas-wrapper-inner {
+  height:5000px;
+}
+
 #offCanvas {
     padding-top:85px;
 
@@ -28,8 +33,4 @@
     }
 
   }
-}
-
-@media screen and (max-width: 640px) {
-
 }

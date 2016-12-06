@@ -1,0 +1,13 @@
+#ffflider {
+    display:block;
+    height:840px;
+    width:100%;
+    background:url(../img/slider1.png);
+    background-size:cover;
+    background-position: center;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:inherit;
+    z-index:-1;
+  }
